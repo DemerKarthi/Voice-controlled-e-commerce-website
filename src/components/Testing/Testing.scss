@@ -1,0 +1,20 @@
+h1 {
+    font-size: 56px !important;
+    font-weight: 700;
+    color: black;
+}
+
+.testingpage {
+
+    h1 {
+        color: red;
+    }
+
+    p {
+        font-size: 60px;
+        @media all and (min-width : 1201px) {
+            font-size: 20px;
+        }
+        
+    }
+}
